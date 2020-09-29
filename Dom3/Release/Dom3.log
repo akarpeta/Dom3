@@ -1,0 +1,38 @@
+﻿Build started 2015-06-11 14:29:57.
+     1>Project "C:\Users\mirenimaza\Documents\Visual Studio 2013\Projects\Dom3\Dom3\Dom3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dom.cpp domownicy.cpp lista.cpp main.cpp piwnica.cpp pokoj.cpp
+         dom.cpp
+         domownicy.cpp
+         lista.cpp
+     1>c:\users\mirenimaza\documents\visual studio 2013\projects\dom3\dom3\lista.cpp(11): error C2995: 'Lista<TYP>::Lista(void)' : function template has already been defined
+                 c:\users\mirenimaza\documents\visual studio 2013\projects\dom3\dom3\lista.h(24) : see declaration of 'Lista<TYP>::Lista'
+     1>c:\users\mirenimaza\documents\visual studio 2013\projects\dom3\dom3\lista.cpp(30): error C2995: 'Lista<TYP>::Lista(const Lista<TYP> &)' : function template has already been defined
+                 c:\users\mirenimaza\documents\visual studio 2013\projects\dom3\dom3\lista.h(25) : see declaration of 'Lista<TYP>::Lista'
+     1>c:\users\mirenimaza\documents\visual studio 2013\projects\dom3\dom3\lista.cpp(60): error C2995: 'void Lista<TYP>::dodajElement(const Dom &,int)' : function template has already been defined
+                 c:\users\mirenimaza\documents\visual studio 2013\projects\dom3\dom3\lista.h(27) : see declaration of 'Lista<TYP>::dodajElement'
+     1>c:\users\mirenimaza\documents\visual studio 2013\projects\dom3\dom3\lista.cpp(97): error C2995: 'void Lista<TYP>::usunElement(int)' : function template has already been defined
+                 c:\users\mirenimaza\documents\visual studio 2013\projects\dom3\dom3\lista.h(28) : see declaration of 'Lista<TYP>::usunElement'
+     1>c:\users\mirenimaza\documents\visual studio 2013\projects\dom3\dom3\lista.cpp(111): error C2995: 'Wezel<TYP> *Lista<TYP>::zwrocWskaznikWezla(int) const' : function template has already been defined
+                 c:\users\mirenimaza\documents\visual studio 2013\projects\dom3\dom3\lista.h(29) : see declaration of 'Lista<TYP>::zwrocWskaznikWezla'
+     1>c:\users\mirenimaza\documents\visual studio 2013\projects\dom3\dom3\lista.cpp(129): error C2995: 'void Lista<TYP>::wyswietlWszystkieObiekty(void)' : function template has already been defined
+                 c:\users\mirenimaza\documents\visual studio 2013\projects\dom3\dom3\lista.h(31) : see declaration of 'Lista<TYP>::wyswietlWszystkieObiekty'
+     1>c:\users\mirenimaza\documents\visual studio 2013\projects\dom3\dom3\lista.cpp(135): error C2995: 'void Lista<TYP>::zwrocCzas(Wezel<Dom> *)' : function template has already been defined
+                 c:\users\mirenimaza\documents\visual studio 2013\projects\dom3\dom3\lista.h(30) : see declaration of 'Lista<TYP>::zwrocCzas'
+     1>c:\users\mirenimaza\documents\visual studio 2013\projects\dom3\dom3\lista.cpp(140): error C2995: 'int Lista<TYP>::rozmiar(void)' : function template has already been defined
+                 c:\users\mirenimaza\documents\visual studio 2013\projects\dom3\dom3\lista.h(32) : see declaration of 'Lista<TYP>::rozmiar'
+     1>c:\users\mirenimaza\documents\visual studio 2013\projects\dom3\dom3\lista.cpp(163): error C2995: 'Lista<TYP>::~Lista(void)' : function template has already been defined
+                 c:\users\mirenimaza\documents\visual studio 2013\projects\dom3\dom3\lista.h(26) : see declaration of 'Lista<TYP>::~Lista'
+     1>c:\users\mirenimaza\documents\visual studio 2013\projects\dom3\dom3\lista.cpp(205): error C2995: 'Lista<TYP> &Lista<TYP>::operator =(const Lista<TYP> &)' : function template has already been defined
+                 c:\users\mirenimaza\documents\visual studio 2013\projects\dom3\dom3\lista.h(34) : see declaration of 'Lista<TYP>::operator ='
+     1>c:\users\mirenimaza\documents\visual studio 2013\projects\dom3\dom3\lista.cpp(216): error C2995: 'Wezel<TYP> *Lista<TYP>::operator [](int)' : function template has already been defined
+                 c:\users\mirenimaza\documents\visual studio 2013\projects\dom3\dom3\lista.h(35) : see declaration of 'Lista<TYP>::operator []'
+         main.cpp
+         piwnica.cpp
+     1>piwnica.cpp(14): warning C4305: '=' : truncation from 'double' to 'float'
+         pokoj.cpp
+     1>Done Building Project "C:\Users\mirenimaza\Documents\Visual Studio 2013\Projects\Dom3\Dom3\Dom3.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.96
